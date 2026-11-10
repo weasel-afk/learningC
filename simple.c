@@ -18,5 +18,13 @@ int main(void)
     // check if n is odd or even
     printf("The number %d is %s.\n", n, n % 2 == 0? "even":"odd");
 
+    int i;
+    i = 0;
+
+    while (i <= 10)
+    {
+        printf("i is now %d", i);
+        i++;
+    }
     return 0;
 }
