@@ -23,7 +23,7 @@ int main(void)
 
     while (i <= 10)
     {
-        printf("i is now %d", i);
+        printf("i is now %d\n", i);
         i++;
     }
     return 0;
