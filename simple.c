@@ -9,8 +9,10 @@ int main(void)
     printf("This is the value of n : %d, and this is the value of m : %s\n", n, m);
 
     //check if n is true
-    if (n) {
+    if (n) 
         printf("%d is a true number!\n", n);
+    else {
+        printf("%d is false. Sad. Do better.\n", n);
     }
 
     // check if n is odd or even
